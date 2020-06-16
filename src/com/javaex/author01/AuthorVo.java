@@ -6,8 +6,7 @@ public class AuthorVo {
 	private int authorId; //작가코드
 	private String authorName; //작가명
 	private String authorDesc; //작가설명
-	
-	
+		
 	//생성자
 	public AuthorVo(int authorId, String authorName, String authorDesc) {
 		this.authorId = authorId;
