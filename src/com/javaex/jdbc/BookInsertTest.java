@@ -28,9 +28,6 @@ public class BookInsertTest {
 			conn = DriverManager.getConnection(url, "webdb", "webdb");
 			System.out.println("접속성공");
 
-			// 2.1 commit설정 변경
-			conn.setAutoCommit(false);
-			
 
 			// 3. SQL문 준비 / 바인딩 / 실행
 			String query = ""; // 쿼리문 문자열만들기, ? 주의
